@@ -1,0 +1,31 @@
+
+  
+  .image-container {
+    flex: 0 0 auto;
+    width: 200px;
+    margin-right: 15px;
+    
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .product-gallery {
+    margin-top: 54px;
+    margin-left: 201px;
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+  
+  
+  @media  (max-width: 700px){
+    .product-gallery{
+    margin-left: 0px;
+    }
+
+    
+    }
